@@ -51,3 +51,5 @@
 45. En app/model/user.rb ha añadido cosas devise y quitamos: la fila de :recoverable, :rememberable, :trackable, :validatable
 46. rake db:migrate
 47. rake routes 
+48. cambiamos el routes
+49. añadimos def index al pages_controller 
