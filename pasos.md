@@ -42,4 +42,12 @@
 36. Si es necesario instalar la gema rails-controller-testing (Sólo rails 5)
 37. Vamos con devise - Lo dejamos para el siguiente día
 38. github
-39. 
+39. Ahora si vamos con devise
+40. https://rubygems.org y buscamos devise
+41. En ubuntu hay que instalar: apt-get install ruby-bcrypt ruby-devise
+42. rails generate devise:install
+43. rails g devise user 
+44. En el archivo de migración quitamos el email pues ya lo teníamos
+45. En app/model/user.rb ha añadido cosas devise y quitamos: la fila de :recoverable, :rememberable, :trackable, :validatable
+46. rake db:migrate
+47. rake routes 
