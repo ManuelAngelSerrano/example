@@ -1,4 +1,4 @@
-class PagessController < ApplicationController
+class PagesController < ApplicationController
   def index
      route_to_redirect = if user_signed_in?
                             user_path(current_user)

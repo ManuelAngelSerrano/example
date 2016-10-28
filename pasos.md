@@ -53,3 +53,10 @@
 47. rake routes 
 48. cambiamos el routes
 49. añadimos def index al pages_controller 
+50. routes.rb root to: "pages#index"
+51. rails g devise:views users
+52. rails g devise:controllers users
+53. app/controllers/users/registration_controller.rb y descomentamos el new
+    (Aqui falta algo)
+54. Vamos a modificar el navbar
+
